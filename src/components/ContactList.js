@@ -24,7 +24,7 @@ const ContactList = ({ contacts, ondeleteContact }) => (
 ContactList.propTypes = {
   contacts: PropTypes.arrayOf(
     PropTypes.exact({
-      id: PropTypes.string.isRequired,
+      id: PropTypes.number.isRequired,
       number: PropTypes.number.isRequired,
       name: PropTypes.string.isRequired,
       is_complete: PropTypes.bool.isRequired,
