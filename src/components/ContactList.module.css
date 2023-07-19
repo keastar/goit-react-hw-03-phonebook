@@ -1,0 +1,40 @@
+.contactList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 210px;
+    padding: 0px;
+    margin: 0 auto;
+   
+}
+
+.contactList_item {
+display: flex;
+align-items: center;
+align-content: space-between;
+   
+}
+.contactList_item_label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    margin: 10px auto;
+
+}
+
+p {
+display: flex;
+font-size: 9pt;
+width: 150px;
+}
+
+.btn {
+display: block;
+width: 50px;
+height: 20px;
+
+font-size: 9pt;
+margin: auto 12px;
+}
